@@ -5,9 +5,10 @@ var myFriend = "Alistair";
 
 ///////////////
 function greetings() {
-    var greeting = `Welcome back, ${myFriend}!` 
-    return greeting;
-}
+    // var greeting = `Greetings ${myFriend}.` 
+    // return greeting;
+    return "Greetings " + myFriend + "."
+  }
   
   //leave this line unchanged to console log the results
   console.log('results: ', greetings());
@@ -17,3 +18,4 @@ function greetings() {
     module.exports = greetings;
   }
   
+0
