@@ -23,8 +23,8 @@ function makePac() {
   let velocity = setToRandom(10); // {x:?, y:?}
   let position = setToRandom(200);
 
-  let directionForX = 0;
-  let directionForY = 0;
+  let directionForX = 1;
+  let directionForY = 1;
 
   // Add image to div id = game
   let game = document.getElementById('game');
